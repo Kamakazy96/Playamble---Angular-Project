@@ -1,0 +1,51 @@
+<h1 id="title" class="title">Register</h1>
+
+<div class="data">
+  <input nbInput fullWidth type="text" placeholder="First Name" [(ngModel)]='firstName' />
+  <input class="mt-3" nbInput type="text" fullWidth placeholder="Last Name" [(ngModel)]='lastName'/>
+  <input
+    nbInput
+    class="mt-3"
+    type="text"
+    fullWidth
+    placeholder="Birthday"
+    [nbDatepicker]="dateTimePicker" 
+    [(ngModel)]='birthday'
+  /><nb-datepicker #dateTimePicker></nb-datepicker>
+  <input class="mt-3" nbInput type="text" fullWidth placeholder="Nationality" [(ngModel)]='nationality'/>
+  <input
+    class="mt-3"
+    nbInput
+    type="text"
+    fullWidth
+    placeholder="Phone Number" [(ngModel)]='phoneNb'
+  />
+  <input class="mt-3" nbInput type="text" fullWidth placeholder="Address" [(ngModel)]='address'/>
+
+  <nb-form-field class="mt-3">
+    <nb-icon nbPrefix icon="at-outline" pack="eva"></nb-icon>
+    <input fullWidth type="text" nbInput placeholder="Email" [(ngModel)]='email'/>
+  </nb-form-field>
+
+  <nb-form-field class="mt-3">
+    <input [type]="getInputType()" nbInput fullWidth placeholder="Password" [(ngModel)]='password' />
+  </nb-form-field>
+
+  <nb-form-field class="mt-3">
+    <input [type]="getInputType()" nbInput fullWidth placeholder="Confirm Password" [(ngModel)]='confirmPassword'/>
+    <button nbSuffix nbButton ghost (click)="toggleShowPassword()">
+      <nb-icon
+        [icon]="showPassword ? 'eye-outline' : 'eye-off-2-outline'"
+        pack="eva"
+        [attr.aria-label]="showPassword ? 'hide password' : 'show password'"
+      >
+      </nb-icon>
+    </button>
+  </nb-form-field>
+</div>
+
+<button (click)="register()" class="mt-3" fullWidth nbButton status="success">Register</button>
+
+<section class="another-action" aria-label="Sign in">
+  Already have an account? <a class="text-link" routerLink="../login">Log in</a>
+</section>

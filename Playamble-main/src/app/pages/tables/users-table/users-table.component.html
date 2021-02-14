@@ -1,0 +1,24 @@
+<nb-card>
+  <nb-card-header> Users </nb-card-header>
+
+  <nb-card-body>
+    <div>
+      <input
+        nbInput
+        #search
+        class="search mb-3"
+        type="text"
+        placeholder="Search..."
+        (keydown.enter)="onSearch(search.value)"
+      />
+    </div>
+    <ng2-smart-table
+      [settings]="settings"
+      [source]="source"
+      (deleteConfirm)="deleteConfirm($event)"
+      (userRowSelect)="makeAdmin($event)"
+      style="cursor: pointer"
+    >
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>

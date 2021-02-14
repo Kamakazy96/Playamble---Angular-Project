@@ -1,0 +1,48 @@
+<div class="card-row">
+  <div class="card-col">
+    <nb-card>
+      <nb-card-header>Previous Number: {{ prevCard }}</nb-card-header>
+    </nb-card>
+  </div>
+  <div class="card-col">
+    <nb-card>
+      <nb-card-header>Current Number: {{ currentCard }}</nb-card-header>
+    </nb-card>
+  </div>
+</div>
+
+<div>
+  <nb-select placeholder="Select a Credit Card">
+    <nb-option
+      *ngFor="let el of card"
+      [value]="el"
+      (selectionChange)="change(el)"
+    >
+      {{ el }}
+    </nb-option>
+  </nb-select>
+</div>
+
+<div class="float-left mt-3" style="font-size: larger" [style.color]="color">
+  Balance: {{ balance }} credits
+</div>
+
+<div class="btn-group float-right">
+  <button
+    class="mr-2"
+    nbButton
+    status="danger"
+    (click)="Lo()"
+    [disabled]="this.balance <= 1"
+  >
+    Lo
+  </button>
+  <button
+    nbButton
+    (click)="Hi()"
+    status="success"
+    [disabled]="this.balance <= 1"
+  >
+    Hi
+  </button>
+</div>

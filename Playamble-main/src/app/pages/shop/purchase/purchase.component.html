@@ -1,0 +1,27 @@
+<nb-card>
+  <nb-card-header> You are purchasing the {{ pack }} offer! </nb-card-header>
+  <nb-card-body>
+    <nb-select
+      placeholder="Select a Credit Card"
+      fullWidth
+    >
+      <nb-option
+        *ngFor="let el of card"
+        [value]="el"
+        (selectionChange)="change(el)"
+      >
+        {{ el }}
+      </nb-option>
+    </nb-select>
+  </nb-card-body>
+  <nb-card-footer>
+    <button
+      nbButton
+      (click)="onSubmit()"
+      status="success"
+      class="float-right"
+    >
+      Purchase
+    </button>
+  </nb-card-footer>
+</nb-card>

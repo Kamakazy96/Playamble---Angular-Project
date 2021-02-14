@@ -1,0 +1,7 @@
+<nb-card>
+    <nb-card-header><pre style="font-family: Open Sans, sans-serif;">{{message}}</pre></nb-card-header>
+    <nb-card-footer style="flex: auto;">
+      <button nbButton status="danger" (click)="cancel()">Cancel</button>
+      <button nbButton status="success" (click)="submit('1')" style="float: right;">Confirm</button>
+    </nb-card-footer>
+  </nb-card>

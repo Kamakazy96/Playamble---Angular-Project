@@ -1,0 +1,25 @@
+[{
+    "displayName": "Sample 1",
+    "cardPayloadUrl": "/assets/cards/flight-itinerary.json",
+  },
+  {
+    "displayName": "Sample 2",
+    "cardPayloadUrl": "/assets/cards/food.json",
+  },
+  {
+    "displayName": "Sample 3",
+    "cardPayloadUrl": "/assets/cards/image-gallery.json",
+  },
+  {
+    "displayName": "Sample 4",
+    "cardPayloadUrl": "/assets/cards/restaurant.json",
+  },
+  {
+    "displayName": "Sample 5",
+    "cardPayloadUrl": "/assets/cards/sporting-event.json",
+  },
+  {
+    "displayName": "Sample 6",
+    "cardPayloadUrl": "/assets/cards/stocks.json",
+  }
+]

@@ -1,0 +1,27 @@
+<nb-card>
+  <nb-card-header> Credit Cards </nb-card-header>
+
+  <nb-card-body>
+    <div class="search mb-3">
+      <input
+        nbInput
+        #search
+        
+        type="text"
+        placeholder="Search..."
+        (keydown.enter)="onSearch(search.value)"
+      />
+
+      <button nbButton status="primary" class="float-right" (click)="onPress()">
+        Add New
+      </button>
+    </div>
+    <ng2-smart-table
+      [settings]="settings"
+      [source]="source"
+      (deleteConfirm)="deleteConfirm($event)"
+      style="cursor: pointer"
+    >
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>
