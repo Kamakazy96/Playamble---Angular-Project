@@ -10,7 +10,7 @@ Playamble is a website in which a user can gamble money while playing:
 
 * Nebular Library
 * PgAdmin
-* Visual Studio Code
+* Node JS
 
 
 ### Login Page:
@@ -51,7 +51,7 @@ Dashboard consists of 2 graphs that display profit from the games played. The Da
 
 ![](Playamble%20Images/AdminDashboard.png)
 
-Admin Dashboard has "check users" in addition to what the users hav.
+Admin Dashboard has "check users" in addition to what the users have.
 
 ### Check Users:
 
