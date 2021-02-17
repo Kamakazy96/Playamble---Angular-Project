@@ -1,5 +1,5 @@
 # Playamble---Angular-Project
-Playamble is a web app which facilitates casio-style gambling for users. Payment support is included. The games include:
+Playamble is a web app which facilitates casino-style gaming for users. Payment support is included. The games include:
 
 * Hi-Lo
 * Blackjack
