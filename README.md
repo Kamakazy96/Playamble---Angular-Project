@@ -38,6 +38,7 @@ A user that has registered before can login successfully into Playamble.
 ![](Playamble%20Images/Register.png)
 
 ِAny user can register filling up the required information.
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/forms/login/login-component) 
 
 
 ### Users DB:
@@ -59,42 +60,50 @@ All credit cards are displayed with their corresponding information.
 ![](Playamble%20Images/Dashboard.png)
 
 Dashboard consists of 2 graphs that display profit from the games played. The Dashbaord color can be changed from Light, Dark, Cosmic, and Corporate. 
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/dashboard) 
 
 ### Admin Dashboard:
 
 ![](Playamble%20Images/AdminDashboard.png)
 
 Admin Dashboard has "check users" in addition to what the users have.
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/dashboard) 
 
 ### Check Users:
 
 ![](Playamble%20Images/Users.png)
 
 Admins can see a list of all available users.
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/tables/users-table) 
+
 
 ### Make Admin or Delete User:
 
 ![](Playamble%20Images/MakeAdmin.png)
 
 Admins can make users also admins or delete users.
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/tables/users-table) 
 
 ### Shop:
 
 ![](Playamble%20Images/Shop.png)
 
 In the shop page users can buy packages to gain balance for them to play with.
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/shop/shop-page) 
 
 ### Purchasing A Package:
 
 ![](Playamble%20Images/PurchasingAPackage.png)
 
 Users can choose with credit card to pay from while purchasing a package. 
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/shop/purchase) 
 
 ### Credit Card Balance:
 
 ![](Playamble%20Images/CreditCardInfoWithBalance.png)
 
 Credit card infomration will be updated when balance is purchased. 
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/tables/smart-table) 
 
 ### Hi-Lo Game:
 
@@ -116,6 +125,7 @@ Winning will grant the user +1 balance.
 
 Losing will result in -2 balance.
 
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/games/hi-lo) 
 
 
 
