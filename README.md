@@ -1,5 +1,5 @@
 # Playamble---Angular-Project
-Playamble is a website in which a user can gamble money while playing:
+Playamble is a web app which facilitates casio-style gambling for users. Payment support is included. The games include:
 
 * Hi-Lo
 * Blackjack
@@ -24,8 +24,6 @@ Finally open the main file in VSC and run the following codes in the terminal:
 ![](Playamble%20Images/npmi.png)
 
 ![](Playamble%20Images/serve.png)
-
-
 
 
 ### Login Page:
@@ -84,7 +82,7 @@ Admins can make users also admins or delete users.
 
 ![](Playamble%20Images/Shop.png)
 
-In the shop page users can buy packages to gain balance for them to gamble with.
+In the shop page users can buy packages to gain balance for them to play with.
 
 ### Purchasing A Package:
 
