@@ -31,7 +31,7 @@ Finally open the main file in VSC and run the following codes in the terminal:
 ![](Playamble%20Images/Login.png)
 
 A user that has registered before can login successfully into Playamble.
-
+[(View the code!)](https://github.com/NourElias/Playamble---Angular-Project/tree/master/Playamble-main/src/app/pages/forms/login/login-component) 
 
 ### Register Page: 
 
