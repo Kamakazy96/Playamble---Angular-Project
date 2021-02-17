@@ -12,6 +12,21 @@ Playamble is a website in which a user can gamble money while playing:
 * PgAdmin
 * Node JS
 
+### Project Setup:
+
+* Launch the database.
+* Open the backend file "NodeJS-postgres-integration-master" in VSC and run the following code in the terminal:
+
+![](Playamble%20Images/backend.png)
+
+Finally open the main file in VSC and run the following codes in the terminal:
+
+![](Playamble%20Images/npmi.png)
+
+![](Playamble%20Images/serve.png)
+
+
+
 
 ### Login Page:
 
